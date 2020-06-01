@@ -11,7 +11,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     text-align: center;
-    overflow-y: hidden
+    overflow-y: hidden;
 }
 
 .grid {
