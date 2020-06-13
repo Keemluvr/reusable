@@ -10,3 +10,4 @@
 [custom-cursor](https://keemluvr.github.io/reusable/custom-cursor/)  
 [lazy-image-loader](https://keemluvr.github.io/reusable/lazy-image-loader/)  
 [liquid-image-hover](https://keemluvr.github.io/reusable/liquid-image-hover)  
+[menu-hover-animation](https://keemluvr.github.io/reusable/menu-hover-animation)  
