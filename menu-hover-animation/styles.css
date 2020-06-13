@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #161616;
+}
+
+.overlay {
+  width: 100%;
+  background-color: lightblue;
+  height: 100vh;
+  position: fixed;
+}
+
+.btn-container {
+  position: fixed;
+  right: 0;
+  font-size: 40px;
+}
+
+.menu-item-container {
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
+}
+
+.menu-item {
+  font-size: 140px;
+  margin: 4px;
+  overflow: hidden;
+  margin-top: -50px;
+}
+
+.menu-item-wrapper {
+  display: flex;
+  position: relative;
+  left: -140px;
+  transition: all 0.2s ease-out;
+}
+
+ion-icon {
+  position: relative;
+  top: 8px;
+  margin-right: 10px;
+}
+
+.menu-item:hover .menu-item-wrapper {
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Helvetica";
+  font-weight: 400;
+}
+
+@media (max-width: 745px) {
+  .menu-item {
+    font-size: 70px;
+    margin-top: -25px;
+  }
+
+  .menu-item-wrapper {
+    left: -70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu-item {
+    font-size: 50px;
+    margin-top: -20px;
+  }
+
+  .menu-item-wrapper {
+    left: -50px;
+  }
+}
